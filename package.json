@@ -1,0 +1,22 @@
+{
+  "name": "kiddie-class-backend",
+  "version": "1.0.0",
+  "description": "Backend for Kiddie Class report generation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "backend",
+    "node"
+  ],
+  "author": "David Oddoye <oddoyedavid@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "puppeteer": "^1.14.0",
+    "xlsx": "^0.14.2"
+  }
+}
